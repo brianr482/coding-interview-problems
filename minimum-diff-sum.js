@@ -11,11 +11,10 @@ function findMinimumDiff(arr, remaining, accrued, size, maxSize) {
       findMinimumDiff([...arr, n], cloneArr, accrued + n, size + 1, maxSize);
     });
   }
-    if (arr.length > 0) {
-      min = Math.min(
-        Math.abs(accrued - remaining.reduce((a, b) => a + b, 0)), min
-      );
-    }
+  if (arr.length > 0) {
+    min = Math.min(
+      Math.abs(accrued - remaining.reduce((a, b) => a + b, 0)), min
+    );
   }
   var min = Infinity;
   findMinimumDiff([], A, 0, 1, A.length - 1);
