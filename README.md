@@ -11,4 +11,4 @@ Problems were classified in differents computer science topics that you need to 
 - Google interview prep.
 
 ## Go beyond!
-Feel free to suggests new approaches for the solutions of the problems or even new challenges!
+Feel free to suggest new approaches for the solutions of the problems or even new challenges!
