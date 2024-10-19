@@ -37,5 +37,4 @@ function findMaxAverage(nums, k) {
   }
 
   return maxAvg;
-};
-
+}
